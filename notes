@@ -1,0 +1,36 @@
+Rwd:respomsive web design,serves as foundation to bootstrap
+Media Queries:serves as foundation for making webpage more responsive
+
+@media screen {
+    can write any type of css property
+}
+
+* units in css(measurement)
+1.absolute units
+cm,mm,inch,pixel,pt,pc---->they are fixed units
+px=a smallest possible dot in your screen
+1px:1/96th of 1 inch
+pt:1/72th of 1 inch
+pc:picas:1pc=11-12pt
+
+2.relative units
+em,vmin,vmax,rem,vm,%
+em:relative  wrt to parent 
+if we give 2em to parent then it will take around default value(16px),so 2em=32
+
+* Gradient-->basically used for the transition of colors
+1. linear gradient:
+backkground-image:linear-gradient();
+default flow is from top to bottom
+
+
+* Bootstrap
+CDN-->content delivery network (delivering content by a metwork)
+study from bootstrap website
+
+grids
+for every row we have 12 columns
+we have taken 12 because any other number cannot be divided by 2,3,4,6
+every container has row and every row has columns
+.container>.row.col-1*12
+bootstrap element are generally div only
